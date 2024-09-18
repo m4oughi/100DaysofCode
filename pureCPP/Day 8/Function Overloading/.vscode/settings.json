@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "vector": "cpp",
+        "iostream": "cpp",
+        "type_traits": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
         "cctype": "cpp",
@@ -21,7 +22,6 @@
         "initializer_list": "cpp",
         "ios": "cpp",
         "iosfwd": "cpp",
-        "iostream": "cpp",
         "istream": "cpp",
         "iterator": "cpp",
         "limits": "cpp",
@@ -33,9 +33,9 @@
         "streambuf": "cpp",
         "system_error": "cpp",
         "tuple": "cpp",
-        "type_traits": "cpp",
         "typeinfo": "cpp",
         "utility": "cpp",
+        "variant": "cpp",
         "xfacet": "cpp",
         "xiosbase": "cpp",
         "xlocale": "cpp",
@@ -48,6 +48,8 @@
         "xmemory": "cpp",
         "xstring": "cpp",
         "xtr1common": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
     }
 }
