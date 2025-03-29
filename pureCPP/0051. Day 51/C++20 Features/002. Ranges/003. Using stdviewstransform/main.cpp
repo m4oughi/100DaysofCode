@@ -1,0 +1,14 @@
+#include <iostream>
+#include <ranges>
+#include <vector>
+
+int main() {
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+
+    auto squared = vec | std::views::transform([](int x) { return x * x; });
+
+    for (int n : squared) {
+        std::cout << n << " ";
+    }
+    std::cout << '\n';
+}
